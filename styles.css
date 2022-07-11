@@ -1,4 +1,74 @@
-.logo {
-    width: auto;
-    height: 50%;
+* {
+    border: 1px solid grey;
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero {
+    background-color: #1f2973;
+}
+
+.intro-text > h2 {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 800;
+}
+
+.intro-text > p, ol {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.hero-logo-text {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+ul {
+    list-style: none;
+}
+
+nav > ul > li {
+    display: inline-block;
+    font-size: 18px;
+    color: #e5e7eb;
+    font-weight: 800;
+    text-decoration: none;
+}
+
+li > a {
+    font-size: 18px;
+    color: #e5e7eb;
+    text-decoration: none;
+}
+
+figcaption {
+    font-size: 18px;
+    color: #e5e7eb;
+}   
+
+.content > h2 {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+}
+
+.content-quote {
+    background-color: #e5e7eb;
+}
+
+.content-quote > blockquote {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 200;
+    font-style: italic;
+}
+
+.content-sign-up, .content-sign-up > button {
+    background-color: #3882f6;
 }

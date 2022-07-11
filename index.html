@@ -4,12 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>Document</title>
 </head>
 <body>
-    <header>
-        <img class="logo" src="./Images/logo.png" alt="A professionally designed logo for a professionally designed website.">
-        <nav>
+    <div class="hero">
+    <header class="top">
+        <div class="hero-left">
+        <img class="hero-logo" src="./Images/logo.png" alt="A professionally designed logo for a professionally designed website.">
+        <h1 class="hero-logo-text">First Portfolio Page</h1>
+        </div>
+        <nav class="hero-right">
             <ul>
                 <li><a href="#">HEADER LINK 1</a></li>
                 <li><a href="#">HEADER LINK 2</a></li>
@@ -21,31 +26,60 @@
     <main>
         <div class="intro">
             <div class="intro-text">
-                <h1>Welcome to my page! :)</h1>
+                <h2>Welcome to my page! :)</h2>
                 <p>Hello. My name is Bradley. You can call me Brad if you prefer (or David - it happens sometimes). I'm a budding web developer on my way, one step at a time, to a career as a full stack developer. I'm looking forward to the day when I can look back at this project and be able to:</p>
                 <ol>
-                    <li>Laugh at how bad I used to be at this</li>
-                    <li>Make something far superior in a much shorter amount of time</li>
+                    <li>a) Laugh at how bad I used to be at this</li>
+                    <li>b) Make something far superior in a much shorter amount of time</li>
                 </ol>
-                <p>I'm not sure how far away that day is just yet, but I am enjoying the journey so far (btw hey future Bradley, thanks for sticking with it!).</p>
+                <p>I'm not sure how far away that day is just yet, but I am enjoying the journey so far (btw hey future Bradley, thanks for sticking with it)</p>
             </div>
 
-            <div class="intro-img">
-                <img 
-            </div>
+            <figure class="intro-img">            
+                <img class="profile" src="./Images/profile.jpg" alt="Some students decided to deface a photo of me. I kind of liked the result actually.">
+                <figcaption>Some students decided to deface a photo of me. I kind of liked the result actually.</figcaption>
+            </figure>
+
         </div>
+    </div>
 
         <div class="content">
-            <div class="content-img">
+            <h2>Links to some other websites I've been using to practice coding. You can browse my work here.</h2>
+            <div class="content-images">
+
+                <figure class="card">            
+                    <img class="TOP" src="./Images/TOP-logo.jpeg" alt="The Odin Project logo.">
+                    <figcaption>Click <a href="https://www.theodinproject.com/home" target="_blank">here</a> to see my The Odin Project profile.</figcaption>
+                </figure>
+                
+                <figure class="card">            
+                    <img class="FCC" src="./Images/FCC-logo.png" alt="Free Code Camp logo.">
+                    <figcaption>Click <a href="https://www.freecodecamp.org/Datasapien" target="_blank">here</a> to see my FreeCodeCamp profile.</figcaption>
+                </figure>
+
+                <figure class="card">            
+                    <img class="GIT" src="./Images/github-logo.webp" alt="GitHub logo.">
+                    <figcaption>Click <a href="https://github.com/Datasapien" target="_blank">here</a> to see my GitHub profile.</figcaption>
+                </figure>
+
+                <figure class="card">            
+                    <img class="CODE" src="./Images/codepen-logo.webp" alt="CodePen logo.">
+                    <figcaption>Click <a href="https://codepen.io/Datasapien" target="_blank">here</a> to see my CodePen profile.</figcaption>
+                </figure>
 
             </div>
 
             <div class="content-quote">
+                <blockquote>
+                    "I think the real reason that habits matter is that they reinforce your sense of identity. It's kind of like every action you take is like a vote for the type of person that you wish to become." - James Clear, Atomic Habits 
+                </blockquote>
 
             </div>
 
             <div class="content-sign-up">
-
+                <h3>If you want to find me ...</h3>
+                <p>You can click the lil button right over yonder to find me on social media.</p>
+                <button type="button">Click Me!</button>
             </div>
 
         </div>
