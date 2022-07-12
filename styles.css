@@ -1,8 +1,11 @@
 * {
-    border: 1px solid grey;
+    /* border: 1px solid grey; */
     padding: 0px;
     margin: 0px;
-}
+    letter-spacing: 0.1em;
+    line-height: 1.5em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}       
 
 /* Display flex and positioning stuff */
 
@@ -25,13 +28,17 @@ header {
 }
 
 li {
-    padding-right: 24px;
+    padding: 12px;
 }
 
+h2, h3 {
+    padding-bottom: 12px;
+}
 .intro {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 48px 0;
 }
 
 .intro-text {
@@ -41,9 +48,45 @@ li {
 }
 
 .profile {
-    padding-right: 24px;
+    margin: 24px;
+    border: 3px solid whitesmoke;
 }
 
+.content {
+    display: flex;
+    flex-direction: column;
+    padding: 48px 0 0 0;
+}
+
+.content h2 {
+    text-align: center;
+}
+
+.content-images {
+    display: flex;
+    justify-content: space-around;
+    padding: 48px 0;
+}
+
+.card {
+    width: 256px;
+}
+
+figcaption {
+    text-align: center;
+}
+
+blockquote {
+    padding: 48px;
+}
+
+.content-sign-up {
+    margin: 48px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 48px;
+}
 
 /* Other styling stuff ... I know it's not the best way to organise my CSS but give me a break here :(*/
 
@@ -109,6 +152,29 @@ figcaption {
     font-style: italic;
 }
 
+.content-sign-up {
+    border-radius: 15px;
+}
+
 .content-sign-up, .content-sign-up > button {
     background-color: #3882f6;
+    color: #e5e7eb;
+}
+
+button {
+    font-size: 200%;
+    font-weight: 800;
+    border: 2px solid whitesmoke;
+    padding: 12px;
+    border-radius: 25px;
+}
+
+footer {
+    background-color: #1f2973;
+    padding: 24px;
+}
+
+footer p {
+    color: #e5e7eb;
+    text-align: center;
 }
